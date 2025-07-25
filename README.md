@@ -6,9 +6,9 @@
 
 1. Clonar el repositorio
 ```
-url
+https://github.com/EdwinHDev/nest-pokemon
 ```
-2. Ejecutar comandos
+2. Ejecutar comando
 ```
 npm install
 ```
@@ -20,6 +20,16 @@ npm i -g @nestjs/cli
   * Tener docker desktop instalado
 ```
 docker compose up -d
+```
+5. Clonar el archivo ```.env.template``` y renombrar la copia a ```.env```
+6. Definir las variables de entorno en el archivo ```.env```
+7. Ejecutar el proyecto con el comando
+```
+npm run start:dev
+```
+8. Ejecuta el seed con la url de desarrollo
+```
+http://localhost:3000/api/v2/seed
 ```
 
 ## Stack
